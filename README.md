@@ -7,6 +7,7 @@
 - [구현 방법](#구현-방법)
 - [요구 사항](#요구-사항)
 - [팀원들](#팀원들)
+- [참고](#참고)
 
 ## 기술적 목표
 
@@ -23,7 +24,6 @@
 
 ## 요구 사항
 
-미정
 
 ## 팀원들  
 
@@ -32,3 +32,7 @@
 팀원들은 각자의 도메인에서 활약하다가 AI를 공부하기 위해 모였고 이 프로젝트가 그 결실이자 그들의 새로운 시작입니다.
 
 팀원들이 모두 같이 공부하고 나누고 실패해가며 이 프로젝트를 발전시킵니다.
+
+## 참고
+
+[Hugging Face text to image - LoRA](https://github.com/huggingface/diffusers/blob/main/examples/text_to_image/README.md#training-with-lora)
