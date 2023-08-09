@@ -93,7 +93,7 @@
 ![화면 캡처 2023-08-09 180730](https://github.com/AIHyuck/Arti_Cover/assets/126551150/4f5c87fd-55d3-4bb3-9fde-17f61a9e2ef0)
 
 ## 구현 방법
-1.  Generate
+### 1.  Generate
 - pretrained model로 Stable Diffusion-v-1-4를 사용하고 LoRA로 fine-tune
 - Stable Diffusion  소개
     - 2022년에 출시된 딥 러닝, 텍스트-이미지 모델
