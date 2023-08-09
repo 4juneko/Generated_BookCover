@@ -65,13 +65,13 @@
   
 ## 관련 선행 기술
 - Book Cover Synthesis from the Summary(https://arxiv.org/abs/2211.02138)
- ![image](https://github.com/AIHyuck/Arti_Cover/assets/126551150/85f516ac-66d7-4921-aa46-64e7fe08231d)
+   ![image](https://github.com/AIHyuck/Arti_Cover/assets/126551150/85f516ac-66d7-4921-aa46-64e7fe08231d)
    - Accepted as a full paper in AICCSA2022 (19th ACS/IEEE International Conference on Computer Systems and Applications)
    - StyleGAN, AttnGAN, DF-GAN, DALL-E 모델을 이용하여 책 표지 생성
    - 결과물이 어떤 내용의 책인지 알 수 없음.
    - ~25,000개의 데이터 셋
   - 마이크로소프트 디자이너
-    사진
+    ![image (2)](https://github.com/AIHyuck/Arti_Cover/assets/126551150/8d07f5c3-9efa-4fb1-bdf6-a200a7f42bdd)
     - 가장 목표치에 근접하는 생성 툴
     - 텍스트 또는 이미지를 input을 받아 이미지를 생성
     - 텍스트 위치 변경 및 내용 변경 가능
@@ -80,13 +80,13 @@
     - 다른 탬플릿 또는 추가 이미지 부착 가능
     - 텍스트 위치 변경 및 내용 변경 가능
   - FontFits
-    사진
+    ![Untitled (1)](https://github.com/AIHyuck/Arti_Cover/assets/126551150/88deb045-dbeb-4429-8094-4477c414d90a)
     - 책 표지에 필요한 텍스트 생성
     - 20만개 이상의 dataset 필요
     - 복잡한 전처리 과정( 책 표지에서 텍스트 지우기, 마스크 제작 등)
     
 ## 프로젝트 흐름
-사진
+![화면 캡처 2023-08-09 180730](https://github.com/AIHyuck/Arti_Cover/assets/126551150/4f5c87fd-55d3-4bb3-9fde-17f61a9e2ef0)
 
 ## 구현 방법
 ### Generate
@@ -107,7 +107,8 @@
         
     - 언어 모델 뿐 아니라 다른 분야에도 적용 가능.
     - crossateention 블럭(노란색 부분)은 이미지와 텍스트 표현 사이의 관계를 구축
-      사진
+      ![latent-diffusion](https://github.com/AIHyuck/Arti_Cover/assets/126551150/f9ca4de3-5bec-4eb9-80aa-80d9ac426c8b)
+
     - 장점
         - 작은 데이터 셋 : 최소 필요 데이터 15~20개
         - 짧은 학습 시간 : 2시간30분 / 데이터 100개
@@ -144,8 +145,8 @@
 - DiffSTE(Diffusion-based Scene Text Editing) 소개
     - 듀얼 인코더 디자인을 사용하여 그림에 있는 글자를 수정하는 목적으로 pretrained diffusion을 개선하기 위해 DiffSTE 모델이 만들어짐.
     - 문자 인코더와 스타일 제어를 위한 명령 인코더를 포함하는 듀얼 인코더 설계로 사전 훈련된 확산 모델을 개선한 후 지정된 스타일이나 주변 텍스트의 스타일을 배경으로 텍스트 명령에서 해당 이미지로의 매핑을 학습
- 
-  사진
+     ![Untitled (1)](https://github.com/AIHyuck/Arti_Cover/assets/126551150/fdd2b32f-2d3e-4e16-9218-2476df6ce988)
+  
     - Dataset
         - the synthetic dataset (Synthetic)
             and three real-world datasets (ArT[9], COCOText[13], and TextOCR [44]) for instruction tuning.
@@ -159,7 +160,7 @@
         - 새로운 텍스트
     
     - DiffSTE의 결과물
-       사
+       ![Untitled (2)](https://github.com/AIHyuck/Arti_Cover/assets/126551150/5af8e934-51e1-4772-81a2-1bcc8447aaee)
 
 - Reference
     - https://github.com/UCSB-NLP-Chang/DiffSTE
@@ -184,11 +185,11 @@
 - 출판업계에서는 보통 A4 기준 300dpi(2,480*3,508)를 이용하는데 결과물의 해상도 256*256 해상도를 높일 필요가 있어 Real-ESRGAN을 이용함.
 - Real-ESRGAN 소개
     
-    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/b21fba08-a2ef-4580-a328-909992352d7f/Untitled.png)
+    ![Untitled (3)](https://github.com/AIHyuck/Arti_Cover/assets/126551150/eaaba7fc-5d3f-401a-8084-bfebbbee6064)
     
     - 4배로 해상도를 높일 수 있음.
+        ![Untitled (4)](https://github.com/AIHyuck/Arti_Cover/assets/126551150/d60cb74f-f0a8-4f2c-b843-fd9c97b4a2ff)
         
-        ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/5a248d6a-5e79-464b-9633-ee2965e7962f/Untitled.png)
         
     - 
 - Reference
