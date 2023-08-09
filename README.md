@@ -68,8 +68,9 @@
    ![image](https://github.com/AIHyuck/Arti_Cover/assets/126551150/85f516ac-66d7-4921-aa46-64e7fe08231d)
    - Accepted as a full paper in AICCSA2022 (19th ACS/IEEE International Conference on Computer Systems and Applications)
    - StyleGAN, AttnGAN, DF-GAN, DALL-E 모델을 이용하여 책 표지 생성
-   - 결과물이 어떤 내용의 책인지 알 수 없음.
    - ~25,000개의 데이터 셋
+   - 결과물이 어떤 내용의 책인지 알 수 없음.
+   
      
 - 마이크로소프트 디자이너
     
