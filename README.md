@@ -188,10 +188,10 @@
     ![Untitled (3)](https://github.com/AIHyuck/Arti_Cover/assets/126551150/eaaba7fc-5d3f-401a-8084-bfebbbee6064)
     
     - 4배로 해상도를 높일 수 있음.
-        ![Untitled (4)](https://github.com/AIHyuck/Arti_Cover/assets/126551150/d60cb74f-f0a8-4f2c-b843-fd9c97b4a2ff)
+      ![Untitled (4)](https://github.com/AIHyuck/Arti_Cover/assets/126551150/d60cb74f-f0a8-4f2c-b843-fd9c97b4a2ff)
         
         
-    - 
+      
 - Reference
     - [arxiv.org/pdf/2107.10833.pdf](https://arxiv.org/pdf/2107.10833.pdf)
     - [GitHub - xinntao/Real-ESRGAN: Real-ESRGAN aims at developing Practical Algorithms for General Image/Video Restoration.](https://github.com/xinntao/Real-ESRGAN)
