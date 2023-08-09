@@ -93,7 +93,7 @@
 ![화면 캡처 2023-08-09 180730](https://github.com/AIHyuck/Arti_Cover/assets/126551150/4f5c87fd-55d3-4bb3-9fde-17f61a9e2ef0)
 
 ## 구현 방법
-### 1.  Generate
+### 1. Generate
 - pretrained model로 Stable Diffusion-v-1-4를 사용하고 LoRA로 fine-tune
 - Stable Diffusion  소개
     - 2022년에 출시된 딥 러닝, 텍스트-이미지 모델
@@ -142,7 +142,7 @@
     
     https://github.com/huggingface/diffusers/blob/main/examples/text_to_image/README.md#training-with-lora
 ---
-### Edit Text
+### 2. Edit Text
 - 책 표지를 생성하면 이미지 생성 모델의 특징으로 의미 없는 유사 글자가 많들어져 텍스트 수정이 필요.
 - SRNet, MOSTEL, SSTE, STEFANN, Imp2Font 등 Scene text editing Model을 시도하였으나 미리 학습된 DIffSTE 모델을 이용하기로 함.
 
@@ -170,7 +170,7 @@
     - https://github.com/UCSB-NLP-Chang/DiffSTE
     - https://arxiv.org/pdf/2304.05568.pdf
 ---
-### Remove Text
+### 3. Remove Text
 - 생성한 책 표지의 유사 글자들이 필요보다 많아 지워야 하는 과정이 필요
 - Detextify에서 힌트를 얻어 Keras-OCR로 문자를 인식하고 그 부분을 Stable Diffusion Inpainting으로 그림의 배경을 참고하여 문자 있던 부분을 채워 넣음.
 - Keras-OCR 소개
@@ -185,7 +185,7 @@
     - https://github.com/iuliaturc/detextify
     - [runwayml/stable-diffusion-inpainting · Hugging Face](https://huggingface.co/runwayml/stable-diffusion-inpainting)
 ---
-### Upscale
+### 4. Upscale
 - 출판업계에서는 보통 A4 기준 300dpi(2,480*3,508)를 이용하는데 결과물의 해상도 256*256 해상도를 높일 필요가 있어 Real-ESRGAN을 이용함.
 - Real-ESRGAN 소개  
     
