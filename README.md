@@ -187,7 +187,8 @@
     - [runwayml/stable-diffusion-inpainting · Hugging Face](https://huggingface.co/runwayml/stable-diffusion-inpainting)
 ---
 ### 4. Upscale
-- 출판업계에서는 보통 A4 기준 300dpi(2,480*3,508)를 이용하는데 결과물의 해상도 256*256 해상도를 높일 필요가 있어 Real-ESRGAN을 이용함.
+- 출판업계에서는 보통 A4 기준 300dpi(2,480x3,508)를 이용하는데 결과물의 해상도가 256x256임.
+- 해상도를 높일 수 있는 Real-ESRGAN 모델을 이용함.
 - Real-ESRGAN 소개  
     
     ![Untitled (3)](https://github.com/AIHyuck/Arti_Cover/assets/126551150/eaaba7fc-5d3f-401a-8084-bfebbbee6064)
