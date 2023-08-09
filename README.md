@@ -70,6 +70,7 @@
    - StyleGAN, AttnGAN, DF-GAN, DALL-E 모델을 이용하여 책 표지 생성
    - 결과물이 어떤 내용의 책인지 알 수 없음.
    - ~25,000개의 데이터 셋
+     
 - 마이크로소프트 디자이너
     
     ![image (2)](https://github.com/AIHyuck/Arti_Cover/assets/126551150/8d07f5c3-9efa-4fb1-bdf6-a200a7f42bdd)
@@ -80,6 +81,7 @@
     - 책표지보단 엽서 이미지 같은 사진도 많이 출력
     - 다른 탬플릿 또는 추가 이미지 부착 가능
     - 텍스트 위치 변경 및 내용 변경 가능
+      
 - FontFits
     
     ![Untitled (1)](https://github.com/AIHyuck/Arti_Cover/assets/126551150/88deb045-dbeb-4429-8094-4477c414d90a)
