@@ -70,7 +70,7 @@
    - StyleGAN, AttnGAN, DF-GAN, DALL-E 모델을 이용하여 책 표지 생성
    - 결과물이 어떤 내용의 책인지 알 수 없음.
    - ~25,000개의 데이터 셋
-  - 마이크로소프트 디자이너
+  - 마이크로소프트 디자이너  
     ![image (2)](https://github.com/AIHyuck/Arti_Cover/assets/126551150/8d07f5c3-9efa-4fb1-bdf6-a200a7f42bdd)
     - 가장 목표치에 근접하는 생성 툴
     - 텍스트 또는 이미지를 input을 받아 이미지를 생성
@@ -79,7 +79,7 @@
     - 책표지보단 엽서 이미지 같은 사진도 많이 출력
     - 다른 탬플릿 또는 추가 이미지 부착 가능
     - 텍스트 위치 변경 및 내용 변경 가능
-  - FontFits
+  - FontFits  
     ![Untitled (1)](https://github.com/AIHyuck/Arti_Cover/assets/126551150/88deb045-dbeb-4429-8094-4477c414d90a)
     - 책 표지에 필요한 텍스트 생성
     - 20만개 이상의 dataset 필요
@@ -159,7 +159,7 @@
         - 새로운 텍스트가 들어갈 마스크
         - 새로운 텍스트
     
-    - DiffSTE의 결과물
+    - DiffSTE의 결과물  
        ![Untitled (2)](https://github.com/AIHyuck/Arti_Cover/assets/126551150/5af8e934-51e1-4772-81a2-1bcc8447aaee)
 
 - Reference
@@ -183,11 +183,11 @@
 ---
 ### Upscale
 - 출판업계에서는 보통 A4 기준 300dpi(2,480*3,508)를 이용하는데 결과물의 해상도 256*256 해상도를 높일 필요가 있어 Real-ESRGAN을 이용함.
-- Real-ESRGAN 소개
+- Real-ESRGAN 소개  
     
     ![Untitled (3)](https://github.com/AIHyuck/Arti_Cover/assets/126551150/eaaba7fc-5d3f-401a-8084-bfebbbee6064)
     
-    - 4배로 해상도를 높일 수 있음.
+    - 4배로 해상도를 높일 수 있음.  
       ![Untitled (4)](https://github.com/AIHyuck/Arti_Cover/assets/126551150/d60cb74f-f0a8-4f2c-b843-fd9c97b4a2ff)
         
         
