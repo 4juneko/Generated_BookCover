@@ -81,7 +81,7 @@ def mask_inpainting_STE(text_boxes, in_image_path, text_box_num: list, words: li
             output_filename=f"output{i+1}"
             output_dir = "/path/to/output"
             command = f"python generate.py --ckpt_path {model_path} --in_image {input_image} --in_mask {input_mask} --text {text} --output_dir {output_dir} --num_sample_per_image 1"
-            !{command}
+            sugpro
                         
             output_image_path = os.path.join(opt.out_dir, output_filename)
     #원하면 PIL.Image.Image 객체 return하면 된다.
