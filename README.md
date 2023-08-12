@@ -38,6 +38,16 @@
     - 책표지보단 엽서 이미지 같은 사진도 많이 출력
     - 다른 탬플릿 또는 추가 이미지 부착 가능
     - 텍스트 위치 변경 및 내용 변경 가능
+ 
+- Book Cover Synthesis from the Summary
+  
+    ![image](https://github.com/AIHyuck/Arti_Cover/assets/126551150/e0a62825-df00-4fff-9f47-330d7f58e91d)
+    ![Untitled (5) (1)](https://github.com/AIHyuck/Arti_Cover/assets/126551150/40261fe6-70f0-4be5-a102-bcbb2083e39c)
+    - https://arxiv.org/pdf/2211.02138.pdf
+    - Accepted in AICCSA2022
+    - StyleGAN, AttnGAN, DF-GAN, DALL-E 모델을 이용하여 책 표지 생성
+    - 결과물이 어떤 내용의 책인지 알 수 없음.
+    - ~25,000개의 데이터 셋
       
 - FontFits
     
