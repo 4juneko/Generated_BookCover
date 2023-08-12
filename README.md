@@ -22,6 +22,7 @@
 ## 관련 선행 기술
 - Book Cover Synthesis from the Summary(https://arxiv.org/abs/2211.02138)
    ![image](https://github.com/AIHyuck/Arti_Cover/assets/126551150/85f516ac-66d7-4921-aa46-64e7fe08231d)
+   ![image](https://github.com/AIHyuck/Arti_Cover/assets/126551150/e0a62825-df00-4fff-9f47-330d7f58e91d)
    - Accepted as a full paper in AICCSA2022 (19th ACS/IEEE International Conference on Computer Systems and Applications)
    - StyleGAN, AttnGAN, DF-GAN, DALL-E 모델을 이용하여 책 표지 생성
    - ~25,000개의 데이터 셋
@@ -39,16 +40,7 @@
     - 다른 탬플릿 또는 추가 이미지 부착 가능
     - 텍스트 위치 변경 및 내용 변경 가능
  
-- Book Cover Synthesis from the Summary
-  
-    ![image](https://github.com/AIHyuck/Arti_Cover/assets/126551150/e0a62825-df00-4fff-9f47-330d7f58e91d)
-    ![Untitled (5) (1)](https://github.com/AIHyuck/Arti_Cover/assets/126551150/40261fe6-70f0-4be5-a102-bcbb2083e39c)
-    - https://arxiv.org/pdf/2211.02138.pdf
-    - Accepted in AICCSA2022
-    - StyleGAN, AttnGAN, DF-GAN, DALL-E 모델을 이용하여 책 표지 생성
-    - 결과물이 어떤 내용의 책인지 알 수 없음.
-    - ~25,000개의 데이터 셋
-      
+     
 - FontFits
     
     ![Untitled (1)](https://github.com/AIHyuck/Arti_Cover/assets/126551150/88deb045-dbeb-4429-8094-4477c414d90a)
