@@ -102,7 +102,7 @@
     https://github.com/huggingface/diffusers/blob/main/examples/text_to_image/README.md#training-with-lora
 ---
 ### 2. Edit Text
-- 책 표지를 생성하면 이미지 생성 모델의 특징으로 의미 없는 유사 글자가 많들어져 텍스트 수정이 필요.
+- 책 표지를 생성하면 이미지 생성 모델의 특징으로 의미 없는 유사 글자가 만들어져 텍스트 수정이 필요.
 - SRNet, MOSTEL, SSTE, STEFANN, Imp2Font 등 Scene text editing Model을 시도하였으나 미리 학습된 DIffSTE 모델을 이용하기로 함.
 
 - DiffSTE(Diffusion-based Scene Text Editing) 소개
