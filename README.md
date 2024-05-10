@@ -164,8 +164,4 @@
 
 ## 팀원들  
 
-아티커버는 AI학교 AIFFEL 온라인 코어 3기 소속의 [고주은](https://github.com/4juneko), [한기혁](https://github.com/AIHyuck), [이호규](https://github.com/hogyu)가 2023년 6월 30일부터 2023년 8월 11일까지 진행하는 프로젝트입니다.  
-
-팀원들은 각자의 도메인에서 활약하다가 AI를 공부하기 위해 모였고 이 프로젝트가 그 결실이자 그들의 새로운 시작입니다.
-
-팀원들이 모두 같이 공부하고 나누고 실패하고 이겨내며 이 프로젝트를 발전시킵니다.
+아티커버는 AI학교 AIFFEL 온라인 코어 3기 소속의 [고주은](https://github.com/4juneko), [한기혁](https://github.com/AIHyuck), [이호규](https://github.com/hogyu)가 2023년 6월 30일부터 2023년 8월 11일까지 진행했던 프로젝트입니다.  
