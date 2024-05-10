@@ -1,8 +1,9 @@
 # 아티커버
-아티커버는 책 제목, 장르, 내용, 요구사항을 입력하면 그에 맞는 책표지를 생성해주는 Stable Diffusion 기반 프로젝트입니다.  
+과업 : 책 제목, 장르, 내용, 요구사항을 입력하면 그에 맞는 책표지의 생성(Stable Diffusion 기반)
+기간 : Jun.30. 2023 ~ Aug.11.2023
+장소 : 온라인(gathertown)으로 진행
 
 ## 목차
-
 - [기술적 목표](#기술적-목표)
 - [관련 선행 기술](#관련-선행-기술)
 - [프로젝트 흐름](#프로젝트-흐름)
@@ -164,4 +165,5 @@
 
 ## 팀원들  
 
-아티커버는 AI학교 AIFFEL 온라인 코어 3기 소속의 [고주은](https://github.com/4juneko), [한기혁](https://github.com/AIHyuck), [이호규](https://github.com/hogyu)가 2023년 6월 30일부터 2023년 8월 11일까지 진행했던 프로젝트입니다.  
+AI학교 AIFFEL 온라인 코어 3기 소속의 [고주은](https://github.com/4juneko), [한기혁](https://github.com/AIHyuck), [이호규](https://github.com/hogyu)
+
